@@ -20,16 +20,16 @@
             ><img
               src="https://img.icons8.com/color/16/000000/google-logo.png"
             />
-            透過Google登入</a
+            Login with Google</a
           >
         </div>
       </div>
       <hr />
-      <h5>已經註冊過一個帳戶？您可以在此登錄：</h5>
+      <h5>Already have an account? Login here:</h5>
       <form action="/auth/login" method="POST">
         <%- include ("partials/message") %>
         <div class="form-group">
-          <label for="exampleInputEmail1">信箱地址：</label>
+          <label for="exampleInputEmail1">Email:</label>
           <input
             type="email"
             class="form-control"
@@ -38,12 +38,12 @@
             name="username"
           />
           <small id="emailHelp" class="form-text text-muted"
-            >我們不會與其他人分享你的信箱。</small
+            >We will not share your email with others.</small
           >
         </div>
         <br />
         <div class="form-group">
-          <label for="exampleInputPassword1">密碼：</label>
+          <label for="exampleInputPassword1">Password:</label>
           <input
             type="password"
             class="form-control"
@@ -52,7 +52,7 @@
           />
         </div>
         <br />
-        <button class="btn btn-primary">會員登入</button>
+        <button class="btn btn-primary">Login</button>
       </form>
     </main>
   </body>
